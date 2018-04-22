@@ -56,6 +56,54 @@ h2.local ,p{
     color: rgba(255, 255, 255, 0.686);
     margin-bottom: 20px;
 }
+div.roda{
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.principal{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+    width: 500%;
+    transition: all .6s;
+}
+.slide img{
+    width: 100%;
+}
+label img{
+    width: 20%;
+    cursor: pointer;
+    float: left;
+    opacity: 0.1;
+    transition:  all .4s;
+}
+#foto2:checked ~ .principal .slide{
+    margin-left: -100%;
+}
+#foto3:checked ~ .principal .slide{
+    margin-left: -200%;
+}
+#foto4:checked ~ .principal .slide{
+    margin-left: -300%;
+}
+#foto5:checked ~ .principal .slide{
+    margin-left: -400%;
+}
+input[name='grupo']:checked + label img{
+    opacity: .8;
+}
+input[name='grupo']{
+    display: none;
+}
+h1.local{
+    text-align: center;
+    color: white;
+}
 /* medias */    
 @media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}}
 @media(max-width:780px){

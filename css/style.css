@@ -47,11 +47,11 @@ div.espaco{
     width: 5%;
 }
 iframe{
-    width: 80%;
-    margin-left: 10%;
-    height: 60vw;
+    width: 60%;
+    margin-left: 20%;
+    height:30vw; 
 }
-h2.local{
+h2.local ,p{
     text-align: center;
     color: rgba(255, 255, 255, 0.686);
     margin-bottom: 20px;

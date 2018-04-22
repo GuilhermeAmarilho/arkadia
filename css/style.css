@@ -1,0 +1,70 @@
+/* topo */
+img.hero-logo-circle{position: absolute;width: 20%;left: 40%;top: 5px;}
+body{background: #353436;}
+*{padding: 0px;margin: 0px;font-family: 'Concert One', cursive;}
+.menu{width: 100%;margin-top: 22%;height: 50px;background: #575558;font-family: 'serif';}
+.menu ul{list-style: none;position: relative;}
+li.primaria{width: 20%;float: left;}
+li.secundaria{width: 100%;}
+.menu a{display: block;text-decoration: none;text-align: center;background-color: #575558;color: white;height: 50px;font-size: 19.4px;}
+a.ancora{height:38px; padding-top: 12px;}
+.menu ul ul{visibility: hidden;}
+.menu ul li:hover ul{visibility: visible;}
+.menu a:hover{background-color: rgba(247, 247, 247, 0.541);color: black;}
+.menu ul ul li{float: none;border-bottom: 1px solid white;}   
+label[for='bt_menu']{background-color: #bdbaba;color: white;text-align: center;font-size: 24px;}
+#bt_menu{display: none;}
+label[for='bt_menu']{display: none;}
+
+/* meio */
+
+.countainerindex{width: 60%;margin-left: 20%;
+    margin-top: 130px;
+    background-color: rgba(165, 188, 189, 0.556);
+    border: 0.2vw white solid;
+}
+.planeta{
+    width: 30%;
+    margin-left: 35%;
+}
+h3{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+p{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* medias */    
+@media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}}
+@media(max-width:780px){
+    label[for='bt_menu']{display: block;margin-top: 55%;font-size:32px;height: 50px;}
+    #bt_menu:checked ~ .menu{margin-left: 0px;}
+    .menu{margin-top: 0px;margin-left: -100%;}
+    .menu a{height: 35px;padding-top: 12px;}
+    .menu ul li{
+        width: 100%;
+        border-bottom: 1px white solid;
+        border-top: 1px white solid;
+    }
+    .menu ul ul li{border-bottom: 1px rgb(0, 0, 0) solid;border-top: 1px rgb(0, 0, 0) solid;}
+    .menu ul ul{position: static;overflow: hidden;max-height: 0;}
+    .menu ul li:hover ul{height: auto;max-height: 200px;}
+}
+
+
+
+
+@media (max-width:780px) {
+    img.hero-logo-circle{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+    }
+    div.nav{
+        margin-top: 64%;
+    }
+}

@@ -18,29 +18,56 @@ label[for='bt_menu']{display: none;}
 
 /* meio */
 
-.countainerindex{width: 60%;margin-left: 20%;
+div.index{width: 60%;margin-left: 20%;
     margin-top: 130px;
     background-color: rgba(165, 188, 189, 0.556);
     border: 0.2vw white solid;
 }
-.planeta{
-    width: 30%;
+div.index h3, h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+div.index p{
+    width: 100%;
+    text-align: center;
+}
+img.index{
     margin-left: 35%;
+    width: 30%;
+    margin-bottom: 10px;
 }
-h3{
-    margin-top: 10px;
-    width: 100%;
+div.espaco{
+    width: 50px;
+    height: 10px;
+    background: rgba(165, 188, 189, 0.556);
+}
+.index_espaco{
+    width: 5%;
+}
+iframe{
+    width: 80%;
+    margin-left: 10%;
+    height: 60vw;
+}
+h2.local{
     text-align: center;
+    color: rgba(255, 255, 255, 0.686);
+    margin-bottom: 20px;
 }
-p{
-    width: 100%;
-    text-align: center;
-}
-
-
 /* medias */    
 @media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}}
 @media(max-width:780px){
+    img.hero-logo-circle{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+    }
+    div.nav{
+        margin-top: 64%;
+    }
+
     label[for='bt_menu']{display: block;margin-top: 55%;font-size:32px;height: 50px;}
     #bt_menu:checked ~ .menu{margin-left: 0px;}
     .menu{margin-top: 0px;margin-left: -100%;}
@@ -53,18 +80,21 @@ p{
     .menu ul ul li{border-bottom: 1px rgb(0, 0, 0) solid;border-top: 1px rgb(0, 0, 0) solid;}
     .menu ul ul{position: static;overflow: hidden;max-height: 0;}
     .menu ul li:hover ul{height: auto;max-height: 200px;}
-}
 
-
-
-
-@media (max-width:780px) {
-    img.hero-logo-circle{
-        position: absolute;
-        width: 50%;
-        left: 25%;
+    
+    div.index{width: 90%;margin-left: 5%;}
+    img.index{
+        margin-left: 20%;
+        width: 60%;
+        margin-bottom: 10px;
     }
-    div.nav{
-        margin-top: 64%;
+    div.index p{
+        width: 98%;
+        margin-left: 1%;
+    }
+    div.espaco{
+        width: 50px;
+        height: 10px;
+        background: rgba(165, 188, 189, 0.556);
     }
 }

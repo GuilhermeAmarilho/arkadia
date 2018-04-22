@@ -7,3 +7,4 @@ setInterval(function() {
         vetor[i+1].style.transform = "rotate(-"+(a%360)+"deg)";        
     }
  }, 60);
+ 

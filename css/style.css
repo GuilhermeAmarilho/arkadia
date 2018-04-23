@@ -175,6 +175,84 @@ h1.fale2{
     text-align: right;
     color: white;
 }
+img.icone{
+    border-radius: 50%;
+    width: 10%;
+    height: 10vw;
+    margin-left: 20%;
+}
+h2.icone{
+    color: white;
+    margin-top: -7%;
+    margin-left: 50%;
+}
+h2.dados{margin-top: 100px;margin-bottom: 20px;}
+h2.dia{
+    color: grey;
+    opacity: 0.8;
+    text-align: center;
+}
+p.dia{
+    opacity: 0.5;
+    text-align: center;
+}
+div.ultimas{
+    width: 94%;
+    margin-left: 3%;
+}
+div#es1{
+    height: 100vw;
+    width: 100%;
+    background: url(../img/i1.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+div#es2{
+    height: 100vw;
+    width: 100%;
+    background: url(../img/i2.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+div#es3{
+    height: 100vw;
+    width: 100%;
+    background: url(../img/i3.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+div#es4{
+    height: 100vw;
+    width: 100%;
+    background: url(../img/i4.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+div#es5{
+    height: 100vw;
+    width: 100%;
+    background: url(../img/i5.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+h2.titulo{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+}
+div#dia{
+    background: url(../img/slua.png) no-repeat;
+    zoom: 130%;
+    width: 70%;
+    margin-left: 15%;
+    height: 50vw;
+}
 /* medias */    
 @media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}
 }

@@ -57,9 +57,9 @@ h2.local ,p{
     margin-bottom: 20px;
 }
 div.roda{
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 40px;
 }
 .principal{
@@ -71,9 +71,6 @@ div.roda{
     display: flex;
     width: 500%;
     transition: all .6s;
-}
-.slide img{
-    width: 100%;
 }
 label img{
     width: 20%;
@@ -128,17 +125,12 @@ div.fac{
     width: 60%;
     margin-left: 20%;
 }
-ul.name , ul.box{
+ul.name{
     list-style: none;
-    width: 50%;
-}
-ul.box input.comment{
     width: 100%;
 }
-ul.box{
-    position: relative;
-    margin-top: -11.5%;
-    float: right;
+ul.name input.comment{
+    width: 100%;
 }
 input.textarea{
     width: 100%;
@@ -151,15 +143,41 @@ h3.comment{
 div.comment button{
     margin-top: 22%;
     height: 30px;
-    width: 10%;
+    width: 80px;
     font-size: 1.3em;
     color: rgb(255, 255, 255);
     background: rgb(106, 106, 106);
     position: relative;
-    left: 90%;
+    left: 70%;
+}
+div.maq{margin-top: 50px;}
+div.compra{
+    width: 50%;
+    margin-left: 25%;
+}
+img.venda{
+    width: 100%;
+    height: 30vw;
+}
+p.venda{
+    width: 70%; 
+    height: 30px;
+    margin: 0px;
+}
+button.venda{
+    width: 30%;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    float: right;
+}
+h1.fale2{
+    text-align: right;
+    color: white;
 }
 /* medias */    
-@media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}}
+@media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}
+}
 @media(max-width:780px){
     img.hero-logo-circle{
         position: absolute;
@@ -199,4 +217,11 @@ div.comment button{
         height: 10px;
         background: rgba(165, 188, 189, 0.556);
     }
+    div.roda{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 40px;
+    }
+        
 }

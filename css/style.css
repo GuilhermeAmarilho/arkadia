@@ -19,16 +19,14 @@ label[for='bt_menu']{display: none;}
 /* meio */
 
 div.index{width: 60%;margin-left: 20%;
-    margin-top: 130px;
+    margin-top: 180px;
     background-color: rgba(165, 188, 189, 0.556);
     border: 0.2vw white solid;
 }
-div.index h3, h4{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100%;
+div.index h4{
     text-align: center;
 }
+
 div.index p{
     width: 100%;
     text-align: center;

@@ -104,6 +104,60 @@ h1.local{
     text-align: center;
     color: white;
 }
+div.fale{
+    color: rgba(255, 255, 255, 0.589)
+}
+div.comment{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+h1.fale , h2.fale{
+    text-align: center;
+    color: white;
+}
+p.nomefac{
+    font-size: 1.3em;
+    color: rgb(218, 208, 208) 
+}
+p.respfac{
+    font-size: 0.9em;
+    color: white;
+}
+div.fac{
+    width: 60%;
+    margin-left: 20%;
+}
+ul.name , ul.box{
+    list-style: none;
+    width: 50%;
+}
+ul.box input.comment{
+    width: 100%;
+}
+ul.box{
+    position: relative;
+    margin-top: -11.5%;
+    float: right;
+}
+input.textarea{
+    width: 100%;
+    margin-top: 3px;
+    height: 200px;
+}
+h3.comment{
+    color: rgba(255, 255, 255, 0.802);
+}
+div.comment button{
+    margin-top: 22%;
+    height: 30px;
+    width: 10%;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    background: rgb(106, 106, 106);
+    position: relative;
+    left: 90%;
+}
 /* medias */    
 @media(min-width:1250px){li.primaria a{height:38px;padding-top: 12px;}}
 @media(max-width:780px){
